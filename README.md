@@ -35,10 +35,10 @@ Perform tasks like looking for a book to buy, favorite books, etc.
 
 ## Technologies Used
 
-Frontend: Next.js, TypeScript, React, Tailwind
+Front-end: Next.js, TypeScript, React, Tailwind, Shadcn/ui,
+Back-end: Supabase,
 
 ## Contact
 
-<span style="color:yellow;">Email: theanna.bilokon@gmail.com</span>
 Email: theanna.bilokon@gmail.com
 LinkedIn: https://www.linkedin.com/in/anna-bilokon/
