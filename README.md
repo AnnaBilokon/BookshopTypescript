@@ -1,4 +1,4 @@
-# 'ReadMe' Bookstore
+# <span style="color:purple"> 'ReadMe' Bookstore 📚</span>
 
 The e-commerce bookstore
 
@@ -8,7 +8,7 @@ The e-commerce bookstore
 
 ---
 
-## Installation
+## Installation 💻
 
 Step-by-step instructions on how to set up the project locally:
 
@@ -35,8 +35,8 @@ Perform tasks like looking for a book to buy, favorite books, etc.
 
 ## Technologies Used
 
-Front-end: Next.js, TypeScript, React, Tailwind, Shadcn/ui,
-Back-end: Supabase,
+⭐ Front-end: Next.js, TypeScript, React, Tailwind, Shadcn/ui
+⭐ Back-end: Supabase, Prisma
 
 ## Contact
 
