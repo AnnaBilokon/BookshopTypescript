@@ -1,10 +1,10 @@
-# <span style="color:purple"> 'ReadMe' Bookstore 📚</span>
+<span style="color:purple"> #'ReadMe' Bookstore 📚</span>
 
 The e-commerce bookstore
 
 ---
 
-## Features
+## Features 💫
 
 ---
 
@@ -35,10 +35,10 @@ Perform tasks like looking for a book to buy, favorite books, etc.
 
 ## Technologies Used
 
-⭐ Front-end: Next.js, TypeScript, React, Tailwind, Shadcn/ui
+⭐ Front-end: Next.js, TypeScript, React, Tailwind, Shadcn/ui <br/>
 ⭐ Back-end: Supabase, Prisma
 
-## Contact
+## Contact 📩
 
 Email: theanna.bilokon@gmail.com
 LinkedIn: https://www.linkedin.com/in/anna-bilokon/
