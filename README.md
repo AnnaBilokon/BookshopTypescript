@@ -1,4 +1,4 @@
-<span style="color:purple"> #'ReadMe' Bookstore 📚</span>
+# 'ReadMe' Bookstore 📚
 
 The e-commerce bookstore
 
@@ -40,5 +40,5 @@ Perform tasks like looking for a book to buy, favorite books, etc.
 
 ## Contact 📩
 
-Email: theanna.bilokon@gmail.com
+Email: theanna.bilokon@gmail.com <br/>
 LinkedIn: https://www.linkedin.com/in/anna-bilokon/
