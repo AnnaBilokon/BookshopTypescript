@@ -5,7 +5,7 @@ import { Button } from '../ui/button';
 export default function AddToCard() {
   return (
 <Button className='capitalize mt-8' size='lg'>
-Add to card
+Add product to card
     </Button>
   )
 }
