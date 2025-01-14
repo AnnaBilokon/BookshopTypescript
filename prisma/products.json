@@ -13,7 +13,7 @@
 	  "author": "Delia Owens",
 	  "description": "In Where the Crawdads Sing, Owens juxtaposes an exquisite ode to the natural world against a profound coming of age story and haunting mystery. Thought-provoking, wise, and deeply moving, Owens’s debut novel reminds us that we are forever shaped by the child within us, while also subject to the beautiful and violent secrets that nature keeps.",
 	  "featured": true,
-	  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE1MvpyqtgEYzrVbWSW99XRgjDkPCc032pKw&s",
+	  "image": "https://m.media-amazon.com/images/I/81lbmz5t2sL._SL1500_.jpg",
 	  "price": 130,
 	  "clerkId": "clerkId"
 	},
@@ -22,7 +22,7 @@
 	  "author": "Alex Michaelides",
 	  "description": "Alicia Berenson’s life is seemingly perfect. A famous painter married to an in-demand fashion photographer, she lives in a grand house with big windows overlooking a park in one of London’s most desirable areas. One evening her husband Gabriel returns home late from a fashion shoot, and Alicia shoots him five times in the face, and then never speaks another word.",
 	  "featured": true,
-	  "image": "https://bilder.akademibokhandeln.se/images_akb/9781409181637_383/the-silent-patient",
+	  "image": "https://m.media-amazon.com/images/I/91BbLCJOruL._SL1500_.jpg",
 	  "price": 140,
 	  "clerkId": "clerkId"
 	},
@@ -30,8 +30,8 @@
 	  "title": "A good girl's guide",
 	  "author": "Holly Jackson",
 	  "description": "The case is closed. Five years ago, schoolgirl Andie Bell was murdered by Sal Singh. The police know he did it. Everyone in town knows he did it.But having grown up in the same small town that was consumed by the murder, Pippa Fitz-Amobi is not so sure. When she chooses the case as the topic for her final year project, she starts to uncover secrets that someone in town desperately wants to stay hidden. And if the real killer is still out there, how far will they go to keep Pip from the truth?",
-	  "featured": false,
-	  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAgI3AD9NXGxm-B7m8kNbUizSeuNBTlN_pIA&s",
+	  "featured": true,
+	  "image": "https://m.media-amazon.com/images/I/819iepQ3BcL._SL1500_.jpg",
 	  "price": 125,
 	  "clerkId": "clerkId"
 	}
