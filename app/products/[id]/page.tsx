@@ -6,7 +6,6 @@ import FavoriteToggleButton from '@/components/products/FavoriteToggleButton';
 import AddToCart from '@/components/single-product/AddToCard';
 import ProductRating from '@/components/single-product/ProductRating';
 
-
   
   interface Params {
 	id: string;
