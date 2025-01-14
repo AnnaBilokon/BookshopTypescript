@@ -9,6 +9,7 @@ The e-commerce bookstore
 Light and dark mode
 Two layouts to display products
 Ability to search books by title and author name
+Ability to favorite products
 
 ## Installation 💻
 
