@@ -6,7 +6,9 @@ The e-commerce bookstore
 
 ## Features 💫
 
----
+Light and dark mode
+Two layouts to display products
+Ability to search books by title and author name
 
 ## Installation 💻
 
@@ -36,7 +38,7 @@ Perform tasks like looking for a book to buy, favorite books, etc.
 ## Technologies Used
 
 ⭐ Front-end: Next.js, TypeScript, React, Tailwind, Shadcn/ui <br/>
-⭐ Back-end: Supabase, Prisma
+⭐ Back-end: Supabase, Prisma, Node.js, Vercel
 
 ## Contact 📩
 
