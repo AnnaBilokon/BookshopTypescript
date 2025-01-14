@@ -7,14 +7,15 @@ import AddToCart from '@/components/single-product/AddToCard';
 import ProductRating from '@/components/single-product/ProductRating';
 
 interface Params {
-	params: {
+	productId: {
 	  id: string;
 	};
   }
 
+  
 
-async function SingleProductPage({ params }: Params ) {
-  const product = await fetchSingleProduct(params.id);
+async function SingleProductPage({ productId }: Params ) {
+  const product = await fetchSingleProduct(productId.id);
   const { title, image, author, description, price } = product;
   const kronosAmount = formatCurrency(price);
   return (
