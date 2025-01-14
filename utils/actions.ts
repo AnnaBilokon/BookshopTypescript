@@ -25,8 +25,15 @@ export const fetchAllProducts = ({ search = '' }:{search:string}) => {
 	})
 }
 
+interface Product {
+	title: string;
+	image: string;
+	author: string;
+	description: string;
+	price: number;
+  }
 
-export const fetchSingleProduct = async (productId: string) => {
+export const fetchSingleProduct = async (productId: string) : Promise<Product> => {
 	const product = await db.product.findUnique({
 	  where: {
 		id: productId,
