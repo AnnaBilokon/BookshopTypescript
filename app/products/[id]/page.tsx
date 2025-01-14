@@ -6,8 +6,14 @@ import FavoriteToggleButton from '@/components/products/FavoriteToggleButton';
 import AddToCart from '@/components/single-product/AddToCard';
 import ProductRating from '@/components/single-product/ProductRating';
 
+interface Params {
+	params: {
+	  id: string;
+	};
+  }
 
-async function SingleProductPage({ params }: { params: { id: string } }) {
+
+async function SingleProductPage({ params }: Params ) {
   const product = await fetchSingleProduct(params.id);
   const { title, image, author, description, price } = product;
   const kronosAmount = formatCurrency(price);
