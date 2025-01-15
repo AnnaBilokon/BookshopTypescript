@@ -20,14 +20,15 @@ async function SingleProductPage({ params }: { params: Params }) {
       <BreadCrumbs name={product.title} />
       <div className='mt-6 grid gap-y-8 lg:grid-cols-2 lg:gap-x-16'>
    
-        <div className='relative h-full'>
+        <div className='flex items-center justify-center relative'>
           <Image
             src={image}
             alt={title}
-            fill
+			width={360}
+			height={420}
             sizes='(max-width:768px) 100vw,(max-width:1200px) 50vw,33vw'
             priority
-            className='w-full rounded-md object-cover'
+            className='rounded-md object-cover'
           />
         </div>
         
