@@ -34,5 +34,41 @@
 	  "image": "https://m.media-amazon.com/images/I/819iepQ3BcL._SL1500_.jpg",
 	  "price": 125,
 	  "clerkId": "clerkId"
-	}
+	},
+	{
+		"title": "All the light we cannot see",
+		"author": " Anthony Doerr",
+		"description": "For Marie-Laure, blind since the age of six, the world is full of mazes. The miniature of a Paris neighbourhood, made by her father to teach her the way home. The microscopic layers within the invaluable diamond that her father guards in the Museum of Natural History. The walled city by the sea, where father and daughter take refuge when the Nazis invade Paris. And a future which draws her ever closer to Werner, a German orphan, destined to labour in the mines until a broken radio fills his life with possibility and brings him to the notice of the Hitler Youth.",
+		"featured": false,
+		"image": "https://m.media-amazon.com/images/I/81Jk-jl3JfL._SL1500_.jpg",
+		"price": 145,
+		"clerkId": "clerkId"
+	  },
+	  {
+		"title": "Normal People",
+		"author": " Sally Rooney",
+		"description": "When they both earn places at Trinity College in Dublin, a connection that has grown between them lasts long into the following years. This is an exquisite love story about how a person can change another person's life - a simple yet profound realisation that unfolds beautifully over the course of the novel.",
+		"featured": false,
+		"image": "https://m.media-amazon.com/images/I/71DYsb8uMvL._SL1500_.jpg",
+		"price": 145,
+		"clerkId": "clerkId"
+	  },
+	  {
+		"title": "Everything I Never Told You",
+		"author": " Celeste Ng",
+		"description": "Lydia is dead. But they don't know this yet. After sixteen-year-old Lydia goes missing and her body turns up in the lake, the police rule it as a suicide. But Lydia's family are determined to search for clues to find out what really happened...",
+		"featured": false,
+		"image": "https://m.media-amazon.com/images/I/816SaHQ8k9L._SL1500_.jpg",
+		"price": 145,
+		"clerkId": "clerkId"
+	  },
+	  {
+		"title": "A Little Life ",
+		"author": " Hanya Yanagihara",
+		"description": "When four graduates from a small Massachusetts college move to New York to make their way, they're broke, adrift, and buoyed only by their friendship and ambition. There is kind, handsome Willem, an aspiring actor; JB, a quick-witted, sometimes cruel Brooklyn-born painter seeking entry to the art world; Malcolm, a frustrated architect at a prominent firm; and withdrawn, brilliant, enigmatic Jude, who serves as their centre of gravity. Over the decades, their relationships deepen and darken, tinged by addiction, success, and pride. Yet their greatest challenge, each comes to realize, is Jude himself, by midlife a terrifyingly talented litigator yet an increasingly broken man, his mind and body scarred by an unspeakable childhood, and haunted by what he fears is a degree of trauma that he'll not only be unable to overcome – but that will define his life forever.",
+		"featured": false,
+		"image": "https://m.media-amazon.com/images/I/71Vh4lfd5FL._SL1500_.jpg",
+		"price": 145,
+		"clerkId": "clerkId"
+	  }
   ]
