@@ -1,6 +1,7 @@
 # 'ReadMe' Bookstore 📚
 
-The e-commerce bookstore
+The e-commerce bookstore <br/>
+https://readmeshop.vercel.app/
 
 ---
 
@@ -10,6 +11,7 @@ Light and dark mode
 Two layouts to display products
 Ability to search books by title and author name
 Ability to favorite products
+Authentication with Clerk
 
 ## Installation 💻
 
