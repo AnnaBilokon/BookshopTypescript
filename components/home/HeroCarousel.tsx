@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import image from '../../app/images/hero_new.svg'
+import image from '../../app/images/hero_new.png'
 
 export default function HeroCarousel() {
   return (
