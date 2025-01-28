@@ -1,31 +1,50 @@
 
-import { Button } from '@/components/ui/button';
 import { faker } from '@faker-js/faker';
 import FormInput from '@/components/form/FormInput';
-
-const createProductAction = async (formData: FormData) => {
-  'use server';
-  const name = formData.get('name') as string;
-  console.log(name);
-};
+import FormContainer from '@/components/form/FormContainer';
+import { createProductAction } from '@/utils/actions';
+import ImageInput from '@/components/form/ImageInput';
+import PriceInput from '@/components/form/PriceInput';
+import TextAreaInput from '@/components/form/TextAreaInput';
+import CheckboxInput from '@/components/form/CheckBoxInput';
+import { SubmitButton } from '@/components/form/Buttons';
 
 function CreateProductPage() {
-const name = faker.book.title();
-//   const author = faker.book.author();
-//   const description = faker.lorem.paragraph({ min: 10, max: 12 });
+const title = faker.book.title();
+  const author = faker.book.author();
+  const description = faker.lorem.paragraph({ min: 10, max: 12 });
   return (
     <section>
       <h1 className='text-2xl font-semibold mb-8 capitalize'>create product</h1>
       <div className='border p-8 rounded-md'>
-        <form action={createProductAction}>
-          <div className='mb-2'>
-			<FormInput type='text' name='name' label='product name' defaultValue={name}/>
-      
+	  <FormContainer action={createProductAction}>
+          <div className='grid gap-4 md:grid-cols-2 my-4'>
+            <FormInput
+              type='text'
+              name='name'
+              label='title'
+              defaultValue={title}
+            />
+            <FormInput
+              type='text'
+              name='author'
+              label='author'
+              defaultValue={author}
+            />
+            <PriceInput />
+            <ImageInput />
           </div>
-          <Button type='submit' size='lg'>
-            Submit
-          </Button>
-        </form>
+          <TextAreaInput
+            name='description'
+            labelText='product description'
+            defaultValue={description}
+          />
+          <div className='mt-6'>
+            <CheckboxInput name='featured' label='featured' />
+          </div>
+
+          <SubmitButton text='Create Product' className='mt-8' />
+        </FormContainer>
       </div>
     </section>
   );
